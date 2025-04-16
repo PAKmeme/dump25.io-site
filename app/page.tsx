@@ -10,7 +10,8 @@ export default function Home() {
           alt="DUMP25 Logo"
           className="w-48 h-48 mb-8"
         />
-        <h1 className="text-5xl md:text-6xl font-bold mb-4">\          THE REVENGE IS HERE
+        <h1 className="text-5xl md:text-6xl font-bold mb-4">
+          THE REVENGE IS HERE
         </h1>
         <p className="text-xl text-gray-300 mb-8">Join the movement.</p>
         <div className="flex gap-4">
@@ -29,19 +30,18 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Placeholder for Tokenomics / Vesting / Info sections */}
+      {/* Tokenomics Section */}
       <section id="tokenomics" className="py-20 px-6 bg-zinc-900">
         <h2 className="text-4xl font-bold mb-6 text-center">Tokenomics</h2>
         <p className="text-gray-400 text-center max-w-2xl mx-auto">
-          {/* Add tokenomics content here later */}
           Coming soon: distribution details, supply breakdown, and more.
         </p>
       </section>
 
+      {/* Buy Section */}
       <section id="buy" className="py-20 px-6 bg-zinc-800">
         <h2 className="text-4xl font-bold mb-6 text-center">How to Buy</h2>
         <p className="text-gray-400 text-center max-w-2xl mx-auto">
-          {/* Add step-by-step instructions or link to DEX */}
           You'll be able to purchase DUMP25 on leading decentralized exchanges.
         </p>
       </section>
