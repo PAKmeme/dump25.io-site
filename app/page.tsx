@@ -46,13 +46,8 @@ export default function Home() {
       {/* Tokenomics */}
       <section id="tokenomics" className="py-20 px-6 bg-zinc-800">
         <h2 className="text-4xl font-bold mb-6 text-center">Tokenomics</h2>
-        <ul className="text-gray-300 max-w-xl mx-auto text-lg space-y-2">
-          <li>💧 50% Liquidity</li>
-          <li>🎁 5% Airdrop — 25B</li>
-          <li>👥 15% Team — 75B</li>
-          <li>🏦 20% Reserve — 100B</li>
-          <li>📣 10% Marketing — 50B</li>
-        </ul>
+        <ul className="text-gray-300 max-w-xl mx-auto text-lg space-y-2"> 
+       </ul>
        <div className="flex justify-center py-8">
   <img src="/tokenomics.png" alt="Tokenomics Chart" className="w-full max-w-2xl" />
 </div>
