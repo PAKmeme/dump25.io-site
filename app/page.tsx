@@ -56,7 +56,7 @@ export default function Home() {
 
       {/* Vesting */}
      {/* Vesting */}
-<section id="vesting" className="py-20 px-6 bg-zinc-800 text-white">
+<section id="vesting" className="py-20 px-6 bg-zinc-900 text-white">
   <h2 className="text-4xl font-bold mb-10 text-center">Vesting Schedule</h2>
   <p className="max-w-3xl mx-auto text-center text-lg text-zinc-300 mb-12">
     DUMP25 will be released gradually to ensure healthy supply and long-term sustainability. 
