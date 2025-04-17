@@ -55,14 +55,22 @@ export default function Home() {
       </section>
 
       {/* Vesting */}
-      <section id="vesting" className="py-20 px-6 bg-zinc-900">
-        <h2 className="text-4xl font-bold mb-6 text-center">Vesting</h2>
-        <p className="text-gray-300 text-center max-w-2xl mx-auto">
-          8.6M tokens already in circulation.<br />
-          25M tokens unlocked every 1st of the month for 12 months (starting May).<br />
-          Final unlock: 95.7M over the last 2 months.
-        </p>
-      </section>
+     {/* Vesting */}
+<section id="vesting" className="py-20 px-6 bg-zinc-800 text-white">
+  <h2 className="text-4xl font-bold mb-10 text-center">Vesting Schedule</h2>
+  <p className="max-w-3xl mx-auto text-center text-lg text-zinc-300 mb-12">
+    DUMP25 will be released gradually to ensure healthy supply and long-term sustainability. 
+    Starting in May: 25M tokens per month for 12 months, then the final 95.7M over the last 2 months.
+  </p>
+  <div className="flex justify-center">
+    <img
+      src="/vesting.png"
+      alt="Vesting Schedule"
+      className="w-full max-w-6xl rounded-xl shadow-lg"
+    />
+  </div>
+</section>
+
 
       {/* About Section */}
       <section id="about" className="py-20 px-6 bg-zinc-800">
