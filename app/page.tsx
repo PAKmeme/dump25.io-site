@@ -49,11 +49,11 @@ export default function Home() {
         <ul className="text-gray-300 max-w-xl mx-auto text-lg space-y-2"> 
        </ul>
       <div className="flex justify-center py-12 px-4">
-  <div className="overflow-hidden rounded-xl max-w-7xl transition-transform duration-300 hover:scale-125">
+  <div className="overflow-hidden rounded-xl transition-transform duration-300 hover:scale-105">
     <img
       src="/tokenomics.png"
       alt="Token Allocation"
-      className="w-full object-cover"
+      className="w-full max-w-[1600px] object-contain"
     />
   </div>
 </div>
