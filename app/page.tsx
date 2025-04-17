@@ -49,7 +49,7 @@ export default function Home() {
         <ul className="text-gray-300 max-w-xl mx-auto text-lg space-y-2"> 
        </ul>
       <div className="flex justify-center py-12 px-4">
-  <div className="overflow-hidden rounded-xl max-w-7xl transition-transform duration-300 hover:scale-105">
+  <div className="overflow-hidden rounded-xl max-w-7xl transition-transform duration-300 hover:scale-125">
     <img
       src="/tokenomics.png"
       alt="Token Allocation"
