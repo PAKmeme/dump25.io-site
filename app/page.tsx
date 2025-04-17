@@ -49,9 +49,8 @@ export default function Home() {
         <ul className="text-gray-300 max-w-xl mx-auto text-lg space-y-2"> 
        </ul>
       <div className="flex justify-center py-8">
-  <img src="/tokenomics.png" alt="Tokenomics Chart" className="w-[1800px] object-cover" />
+  <img src="/tokenomics.png" alt="Tokenomics Chart" className="w-full max-w-2xl" />
 </div>
-
 
       </section>
 
