@@ -48,15 +48,10 @@ export default function Home() {
         <h2 className="text-4xl font-bold mb-6 text-center">Tokenomics</h2>
         <ul className="text-gray-300 max-w-xl mx-auto text-lg space-y-2"> 
        </ul>
-      <div className="flex justify-center py-12 px-4">
-  <div className="overflow-hidden rounded-xl transition-transform duration-300 hover:scale-105">
-    <img
-      src="/tokenomics.png"
-      alt="Token Allocation"
-      className="w-[100%] object-cover"
-    />
-  </div>
+      <div className="flex justify-center py-8">
+  <img src="/tokenomics.png" alt="Tokenomics Chart" className="w-[1800px] object-cover" />
 </div>
+
 
       </section>
 
