@@ -48,12 +48,8 @@ export default function Home() {
         <h2 className="text-4xl font-bold mb-6 text-center">Tokenomics</h2>
         <ul className="text-gray-300 max-w-xl mx-auto text-lg space-y-2"> 
        </ul>
-    <div className="flex justify-center py-12 px-4">
-  <img
-    src="/tokenomics.png"
-    alt="Token Allocation"
-    className="w-full max-w-7xl"
-  />
+       <div className="flex justify-center py-8">
+  <img src="/tokenomics.png" alt="Tokenomics Chart" className="w-full max-w-2xl" />
 </div>
 
       </section>
