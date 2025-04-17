@@ -53,7 +53,7 @@ export default function Home() {
     <img
       src="/tokenomics.png"
       alt="Token Allocation"
-      className="w-full max-w-[1600px] object-contain"
+      className="w-[100%] object-cover"
     />
   </div>
 </div>
