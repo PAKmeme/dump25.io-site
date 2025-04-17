@@ -53,6 +53,10 @@ export default function Home() {
           <li>🏦 20% Reserve — 100B</li>
           <li>📣 10% Marketing — 50B</li>
         </ul>
+       <div className="flex justify-center py-8">
+  <img src="/tokenomics.png" alt="Tokenomics Chart" className="w-full max-w-2xl" />
+</div>
+ 
       </section>
 
       {/* Vesting */}
