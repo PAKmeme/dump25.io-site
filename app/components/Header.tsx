@@ -22,12 +22,9 @@ export default function Header() {
           <Link href="/#footer" className="hover:text-zinc-400 transition">Contact</Link>
         </nav>
 
-        <div className="hidden md:flex space-x-4 text-sm">
-        </div>
-
         {/* Burger Icon for Mobile */}
         <button onClick={toggleMobile} className="md:hidden">
-          {mobileOpen ? <X size={28} /> : <Menu size={28} />} {/* 3-bar icon */}
+          {mobileOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
@@ -46,8 +43,6 @@ export default function Header() {
               <Link href="/whitepaper" onClick={toggleMobile}>Whitepaper</Link>
               <Link href="/#footer" onClick={toggleMobile}>Contact</Link>
             </nav>
-            <div className="flex space-x-4 mt-4 text-sm">
-            </div>
           </motion.div>
         )}
       </AnimatePresence>
