@@ -9,7 +9,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body>{children}</body>
+      <body className="bg-black text-white">
+        <Header /> {/* 👈 le menu en haut */}
+        {children}
+      </body>
     </html>
   );
 }
