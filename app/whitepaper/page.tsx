@@ -9,7 +9,7 @@ export default function Whitepaper() {
           <p className="text-zinc-300 text-lg">
             In a market ruled by whales, manipulators, and short-sellers, millions of retail investors have been left behind. Liquidated. Shaken out. Forgotten.
             <br /><br />
-            <strong>DUMP25</strong> was born out of this injustice — a decentralized symbol of resistance. It represents every trader who got stopped out by engineered volatility. Every liquidation caused not by bad trades — but by a broken, rigged system.
+            <strong>DUMP25 (dump)</strong> was born out of this injustice — a decentralized symbol of resistance. It represents every trader who got stopped out by engineered volatility. Every liquidation caused not by bad trades — but by a broken, rigged system.
             <br /><br />
             This is not just a token. It's a movement.
           </p>
