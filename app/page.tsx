@@ -36,12 +36,32 @@ export default function Home() {
       </section>
 
       {/* Introduction */}
-      <section className="py-20 px-6 bg-zinc-900">
-        <h2 className="text-4xl font-bold mb-6 text-center">What is DUMP25?</h2>
-        <p className="text-gray-300 text-center max-w-3xl mx-auto">
-          DUMP25 is the revenge of the liquidated. A memecoin created for all those who got rekt by the market: liquidated, manipulated, or forced to sell at a loss. Like GameStop, DUMP25 is a movement — a symbol of fightback and power to the people.
-        </p>
-      </section>
+      {/* Introduction */}
+<section className="bg-black text-white py-24 px-6">
+  <div className="max-w-4xl mx-auto text-center">
+    <h2 className="text-5xl font-bold mb-10">The Revolution Begins</h2>
+    <p className="text-xl text-zinc-300 leading-relaxed space-y-6">
+      <span>
+        In a market ruled by whales, manipulators, and short-sellers, millions of retail investors have been left behind. Liquidated. Shaken out. Forgotten.
+      </span>
+      <br /><br />
+      <span>
+        <strong>DUMP25</strong> was born out of this injustice — a decentralized symbol of resistance. This is not just a token. It's a movement.
+      </span>
+      <br /><br />
+      <span>
+        It represents every trader who got stopped out by engineered volatility. Every degen forced to sell low, just to watch the price moon without them. Every liquidation caused not by bad trades — but by a broken, rigged system.
+      </span>
+      <br /><br />
+      <span>
+        <strong>DUMP25 empowers the community</strong> to reclaim control. To unify. To reverse the trend.
+      </span>
+      <br /><br />
+      <em className="block text-2xl font-semibold text-white mt-6">We are done playing by their rules. Now, we write our own.</em>
+    </p>
+  </div>
+</section>
+
 
       {/* Tokenomics */}
       <section id="tokenomics" className="py-20 px-6 bg-zinc-800">
