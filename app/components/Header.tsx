@@ -23,12 +23,7 @@ export default function Header() {
           <a href="https://github.com/PAKmeme" className="hover:text-white">GitHub</a>
           <a href="mailto:contact@dump25.io" className="hover:text-white">contact@dump25.io</a>
         </div>
-        <p>© 2025 DUMP25. Built by the liquidated. For the liquidated.</p>
-      </footer>
-    </main>
-  );
-} 
-      </div>
+     </div>
     </header>
   );
 }
