@@ -17,11 +17,6 @@ export default function Header() {
           <Link href="/#contact" className="hover:text-zinc-400 transition">Contact</Link>
         </nav>
 
-        <div className="flex space-x-4 text-sm">
-          <a href="https://x.com/Thedump25" target="_blank" className="hover:text-zinc-400">X</a>
-          <a href="https://t.me/+kdThjHWnV-JjZDY8" target="_blank" className="hover:text-zinc-400">Telegram</a>
-          <a href="https://github.com/PAKmeme" target="_blank" className="hover:text-zinc-400">GitHub</a>
-        </div>
       </div>
     </header>
   );
