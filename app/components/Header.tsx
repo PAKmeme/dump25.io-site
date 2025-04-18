@@ -16,7 +16,18 @@ export default function Header() {
           <a href="/whitepaper.pdf" target="_blank" className="hover:text-zinc-400 transition">Whitepaper</a>
           <Link href="/#contact" className="hover:text-zinc-400 transition">Contact</Link>
         </nav>
-
+        <footer className="py-12 bg-black text-center text-gray-400 text-sm space-y-4">
+        <div className="flex flex-wrap justify-center gap-4 text-lg">
+          <a href="https://twitter.com/Thedump25" className="hover:text-white">X (Twitter)</a>
+          <a href="https://t.me/+kdThjHWnV-JjZDY8" className="hover:text-white">Telegram</a>
+          <a href="https://github.com/PAKmeme" className="hover:text-white">GitHub</a>
+          <a href="mailto:contact@dump25.io" className="hover:text-white">contact@dump25.io</a>
+        </div>
+        <p>© 2025 DUMP25. Built by the liquidated. For the liquidated.</p>
+      </footer>
+    </main>
+  );
+} 
       </div>
     </header>
   );
