@@ -10,7 +10,7 @@ export default function Header() {
     <header className="bg-black text-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/">
-          <span className="text-3xl font-bold">DUMP25</span>
+          <span className="text-3xl font-bold">DUMP</span>
         </Link>
 
         {/* Desktop Nav */}
