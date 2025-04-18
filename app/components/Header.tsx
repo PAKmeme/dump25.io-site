@@ -44,7 +44,6 @@ export default function Header() {
               <Link href="/whitepaper" onClick={toggleMobile}>Whitepaper</Link>
               <Link href="/#footer" onClick={toggleMobile}>Contact</Link>
             </nav>
-          </motion.div>
         )}
       </AnimatePresence>
     </header>
