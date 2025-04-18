@@ -30,8 +30,6 @@ export default function Home() {
     THE REVENGE IS HERE
   </h1>
   <p className="text-xl text-gray-300 mb-8">Join the movement.</p>
-
-  {/* ✅ Boutons séparés */}
   <div className="flex gap-4 flex-wrap justify-center">
     <a
       href="/whitepaper"
@@ -43,6 +41,7 @@ export default function Home() {
       href="#buy"
       className="border border-red-600 hover:bg-red-600 hover:text-white text-red-600 px-6 py-3 rounded-xl text-lg"
     >
+      
       Buy Now
     </a>
   </div>
