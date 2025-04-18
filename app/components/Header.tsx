@@ -1,7 +1,7 @@
+"use client";
+
 import Link from 'next/link';
 import { useState } from 'react';
-
-"use client";
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
