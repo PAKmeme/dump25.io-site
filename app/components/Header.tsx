@@ -14,7 +14,7 @@ export default function Header() {
         <nav className="space-x-6 text-lg">
           <Link href="/#about" className="hover:text-zinc-400 transition">About</Link>
           <Link href="/#intro" className="hover:text-zinc-400 transition">History</Link>
-          <a href="/whitepaper.pdf" target="_blank" className="hover:text-zinc-400 transition">Whitepaper</a>
+          <Link href="/whitepaper" className="hover:text-zinc-400 transition">Whitepaper</Link>
           <Link href="/#footer" className="hover:text-zinc-400 transition">Contact</Link>
         </nav>
 
