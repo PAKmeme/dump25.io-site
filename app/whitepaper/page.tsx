@@ -41,7 +41,6 @@ export default function Whitepaper() {
             />
           </div>
         </section>
-
         <section>
           <h2 className="text-3xl font-bold mb-4">4. Vesting</h2>
           <p className="text-zinc-300 text-lg mb-6">
