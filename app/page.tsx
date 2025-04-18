@@ -80,7 +80,7 @@ export default function Home() {
       <section id="vesting" className="py-20 px-6 bg-zinc-900 text-white">
         <h2 className="text-4xl font-bold mb-10 text-center">Vesting Schedule</h2>
         <p className="max-w-3xl mx-auto text-center text-lg text-zinc-300 mb-12">
-          DUMP25 will be released gradually to ensure healthy supply and long-term sustainability. 
+          DUMP will be released gradually to ensure healthy supply and long-term sustainability. 
           Starting in May: 25M tokens per month for 12 months, then the final 95.7M over the last 2 months.
         </p>
         <div className="flex justify-center">
