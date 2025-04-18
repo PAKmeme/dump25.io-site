@@ -1,13 +1,10 @@
-"use client";
-
 import Link from 'next/link';
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+
+"use client";
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const toggleMobile = () => setMobileOpen(!mobileOpen);
 
   return (
     <header className="bg-black text-white shadow-md sticky top-0 z-50">
@@ -24,30 +21,23 @@ export default function Header() {
           <Link href="/#footer" className="hover:text-zinc-400 transition">Contact</Link>
         </nav>
 
-        {/* Burger Icon for Mobile */}
-        <button onClick={toggleMobile} className="md:hidden">
-          {mobileOpen ? <X size={28} /> : <Menu size={28} />}
+        {/* Mobile Button */}
+        <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden text-xl">
+          {mobileOpen ? '✕' : '☰'}
         </button>
       </div>
 
-      {/* Mobile Nav Animation */}
-      <AnimatePresence>
-        {mobileOpen && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: 'auto', opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className="bg-zinc-900 px-6 pb-4 md:hidden overflow-hidden"
-          >
-            <nav className="flex flex-col space-y-3 text-lg pt-4">
-              <Link href="/#about" onClick={toggleMobile}>About</Link>
-              <Link href="/#intro" onClick={toggleMobile}>History</Link>
-              <Link href="/whitepaper" onClick={toggleMobile}>Whitepaper</Link>
-              <Link href="/#footer" onClick={toggleMobile}>Contact</Link>
-            </nav>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {/* Mobile Nav */}
+      {mobileOpen && (
+        <div className="bg-zinc-900 px-6 pb-4 md:hidden">
+          <nav className="flex flex-col space-y-3 text-lg pt-4">
+            <Link href="/#about" onClick={() => setMobileOpen(false)}>About</Link>
+            <Link href="/#intro" onClick={() => setMobileOpen(false)}>History</Link>
+            <Link href="/whitepaper" onClick={() => setMobileOpen(false)}>Whitepaper</Link>
+            <Link href="/#footer" onClick={() => setMobileOpen(false)}>Contact</Link>
+          </nav>
+        </div>
+      )}
     </header>
   );
 }
