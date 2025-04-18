@@ -27,11 +27,6 @@ export default function Whitepaper() {
         <section>
           <h2 className="text-3xl font-bold mb-4">3. Tokenomics</h2>
           <ul className="text-zinc-300 text-lg space-y-2 list-disc list-inside">
-            <li>💧 50% Liquidity</li>
-            <li>🎁 5% Airdrop — 25B</li>
-            <li>👥 15% Team — 75B</li>
-            <li>🏦 20% Reserve — 100B</li>
-            <li>📣 10% Marketing — 50B</li>
           </ul>
         </section>
 
