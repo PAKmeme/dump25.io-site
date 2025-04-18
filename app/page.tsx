@@ -29,9 +29,6 @@ export default function Home() {
   href="/whitepaper"
   className="bg-red-600 hover:bg-red-700 ..."
 >
-  Whitepaper
-</a>
-
             Buy Now
           </a>
         </div>
