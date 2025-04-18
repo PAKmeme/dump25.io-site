@@ -9,7 +9,7 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center text-center py-24 px-4">
         <Image
           src="/logo.png"
-          alt="DUMP25 Logo"
+          alt="DUMP Logo"
           width={192}
           height={192}
           className="mb-8"
