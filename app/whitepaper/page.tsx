@@ -33,17 +33,19 @@ export default function Whitepaper() {
             <li>🏦 20% Reserve — 100B</li>
             <li>📣 10% Marketing — 50B</li>
           </ul>
-          <section className="py-16 bg-black text-white px-4">
-  <h2 className="text-4xl font-bold mb-6 text-center">Token Allocation</h2>
-  <div className="flex justify-center">
-    <img
-      src="/tokenomics.png"
-      alt="Tokenomics Chart"
-      className="w-full max-w-5xl object-contain"
-    />
-  </div>
-</section>
+        </section>
 
+        {/* ✅ Graphique en dehors et proprement intégré */}
+        <section className="py-16 text-white px-4">
+          <h2 className="text-4xl font-bold mb-6 text-center">Token Allocation</h2>
+          <div className="flex justify-center">
+            <img
+              src="/tokenomics.png"
+              alt="Tokenomics Chart"
+              className="w-full max-w-5xl object-contain"
+            />
+          </div>
+        </section>
 
         <section>
           <h2 className="text-3xl font-bold mb-4">4. Vesting</h2>
