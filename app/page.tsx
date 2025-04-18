@@ -93,20 +93,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact & Socials */}
-      <section id="contact" className="bg-zinc-900 text-white py-24 px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Contact & Socials</h2>
-          <p className="text-lg text-zinc-300 mb-6">Got a question? Want to join the movement?</p>
-          <p className="text-xl font-medium mb-4">📧 contact@dump25.io</p>
-          <div className="flex justify-center space-x-6 mt-6 text-xl">
-            <a href="https://x.com/Thedump25" target="_blank" className="hover:text-zinc-400">X</a>
-            <a href="https://t.me/+kdThjHWnV-JjZDY8" target="_blank" className="hover:text-zinc-400">Telegram</a>
-            <a href="https://github.com/PAKmeme" target="_blank" className="hover:text-zinc-400">GitHub</a>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="py-12 bg-black text-center text-gray-400 text-sm space-y-4">
         <div className="flex flex-wrap justify-center gap-4 text-lg">
