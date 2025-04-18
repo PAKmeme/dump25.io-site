@@ -26,11 +26,13 @@ export default function Home() {
             Whitepaper
           </a>
           <a
-            href="#buy"
-            className="border border-red-600 hover:bg-red-600 hover:text-white text-red-600 px-6 py-3 rounded-xl text-lg"
-          >
-            Buy Now
-          </a>
+  href="https://pancakeswap.finance/swap?outputCurrency=0xe70894aa930BB5E43505867b05C28523CE66D347"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="border border-red-600 hover:bg-red-600 hover:text-white text-red-600 px-6 py-3 rounded-xl text-lg"
+>
+  Buy Now
+</a>
         </div>
       </section>
         
