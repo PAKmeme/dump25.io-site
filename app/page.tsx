@@ -35,72 +35,79 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Introduction */}
-      {/* Introduction */}
-<section className="bg-black text-white py-24 px-6">
-  <div className="max-w-4xl mx-auto text-center">
-    <h2 className="text-5xl font-bold mb-10">The Revolution Begins</h2>
-    <p className="text-xl text-zinc-300 leading-relaxed space-y-6">
-      <span>
-        In a market ruled by whales, manipulators, and short-sellers, millions of retail investors have been left behind. Liquidated. Shaken out. Forgotten.
-      </span>
-      <br /><br />
-      <span>
-        <strong>DUMP25</strong> was born out of this injustice — a decentralized symbol of resistance. This is not just a token. It's a movement.
-      </span>
-      <br /><br />
-      <span>
-        It represents every trader who got stopped out by engineered volatility. Every degen forced to sell low, just to watch the price moon without them. Every liquidation caused not by bad trades — but by a broken, rigged system.
-      </span>
-      <br /><br />
-      <span>
-        <strong>DUMP25 empowers the community</strong> to reclaim control. To unify. To reverse the trend.
-      </span>
-      <br /><br />
-      <em className="block text-2xl font-semibold text-white mt-6">We are done playing by their rules. Now, we write our own.</em>
-    </p>
-  </div>
-</section>
+      {/* History / Revolution Section */}
+      <section id="intro" className="bg-black text-white py-24 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-5xl font-bold mb-10">The Revolution Begins</h2>
+          <p className="text-xl text-zinc-300 leading-relaxed">
+            In a market ruled by whales, manipulators, and short-sellers, millions of retail investors have been left behind. Liquidated. Shaken out. Forgotten.
+            <br /><br />
+            <strong>DUMP25</strong> was born out of this injustice — a decentralized symbol of resistance. This is not just a token. It's a movement.
+            <br /><br />
+            It represents every trader who got stopped out by engineered volatility. Every degen forced to sell low, just to watch the price moon without them.
+            <br /><br />
+            <em className="block text-2xl font-semibold text-white mt-6">We are done playing by their rules. Now, we write our own.</em>
+          </p>
+        </div>
+      </section>
 
+      {/* About Section */}
+      <section id="about" className="bg-zinc-900 text-white py-24 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-5xl font-bold mb-8">About the Founder — Pak</h2>
+          <p className="text-xl text-zinc-300 leading-relaxed">
+            DUMP25 was not created by a VC, a hedge fund, or a tech conglomerate. It was created by one of us.
+            <br /><br />
+            <strong>Pak</strong>, a retail trader who faced the harshest sides of the market — forced liquidations, fake pumps, rugpulls, and manipulation.
+            <br /><br />
+            <em className="block text-2xl text-white">"I didn’t want to play their game anymore — I wanted to flip the board."</em>
+            <br /><br />
+            With DUMP25, Pak isn’t just launching a token — he’s launching a war cry. A symbol of unity for those wrecked by the system.
+            <br /><br />
+            <strong>No VC allocations. No private sales. No manipulation. Just pure community.</strong>
+          </p>
+        </div>
+      </section>
 
       {/* Tokenomics */}
       <section id="tokenomics" className="py-20 px-6 bg-zinc-800">
         <h2 className="text-4xl font-bold mb-6 text-center">Tokenomics</h2>
-        <ul className="text-gray-300 max-w-xl mx-auto text-lg space-y-2"> 
-       </ul>
-      <div className="flex justify-center py-8">
-  <img src="/tokenomics.png" alt="Tokenomics Chart" className="w-full max-w-7xl object-cover"/>
-</div>
-
+        <div className="flex justify-center py-8">
+          <img src="/tokenomics.png" alt="Tokenomics Chart" className="w-full max-w-7xl object-cover" />
+        </div>
       </section>
 
       {/* Vesting */}
-     {/* Vesting */}
-<section id="vesting" className="py-20 px-6 bg-zinc-900 text-white">
-  <h2 className="text-4xl font-bold mb-10 text-center">Vesting Schedule</h2>
-  <p className="max-w-3xl mx-auto text-center text-lg text-zinc-300 mb-12">
-    DUMP25 will be released gradually to ensure healthy supply and long-term sustainability. 
-    Starting in May: 25M tokens per month for 12 months, then the final 95.7M over the last 2 months.
-  </p>
-  <div className="flex justify-center">
-    <img
-      src="/vesting.png"
-      alt="Vesting Schedule"
-      className="w-full max-w-6xl rounded-xl shadow-lg"
-    />
-  </div>
-</section>
-
-
-      {/* About Section */}
-      <section id="about" className="py-20 px-6 bg-zinc-800">
-        <h2 className="text-4xl font-bold mb-6 text-center">About</h2>
-        <p className="text-gray-300 text-center max-w-2xl mx-auto">
-          I’m <strong>Pak</strong>, a degenerate builder who turned frustration into fuel. This is for everyone who ever got dumped on. DUMP25 isn't just a token. It's our answer.
+      <section id="vesting" className="py-20 px-6 bg-zinc-900 text-white">
+        <h2 className="text-4xl font-bold mb-10 text-center">Vesting Schedule</h2>
+        <p className="max-w-3xl mx-auto text-center text-lg text-zinc-300 mb-12">
+          DUMP25 will be released gradually to ensure healthy supply and long-term sustainability. 
+          Starting in May: 25M tokens per month for 12 months, then the final 95.7M over the last 2 months.
         </p>
+        <div className="flex justify-center">
+          <img
+            src="/vesting.png"
+            alt="Vesting Schedule"
+            className="w-full max-w-6xl rounded-xl shadow-lg"
+          />
+        </div>
       </section>
 
       {/* Contact & Socials */}
+      <section id="contact" className="bg-zinc-900 text-white py-24 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-8">Contact & Socials</h2>
+          <p className="text-lg text-zinc-300 mb-6">Got a question? Want to join the movement?</p>
+          <p className="text-xl font-medium mb-4">📧 contact@dump25.io</p>
+          <div className="flex justify-center space-x-6 mt-6 text-xl">
+            <a href="https://x.com/Thedump25" target="_blank" className="hover:text-zinc-400">X</a>
+            <a href="https://t.me/+kdThjHWnV-JjZDY8" target="_blank" className="hover:text-zinc-400">Telegram</a>
+            <a href="https://github.com/PAKmeme" target="_blank" className="hover:text-zinc-400">GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
       <footer className="py-12 bg-black text-center text-gray-400 text-sm space-y-4">
         <div className="flex flex-wrap justify-center gap-4 text-lg">
           <a href="https://twitter.com/Thedump25" className="hover:text-white">X (Twitter)</a>
