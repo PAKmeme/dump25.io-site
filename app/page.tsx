@@ -94,8 +94,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 bg-black text-center text-gray-400 text-sm space-y-4">
-        <div className="flex flex-wrap justify-center gap-4 text-lg">
+      <footer id="footer" className="py-12 bg-black text-center text-gray-400 text-sm space-y-4">
+       <div className="flex flex-wrap justify-center gap-4 text-lg">
           <a href="https://twitter.com/Thedump25" className="hover:text-white">X (Twitter)</a>
           <a href="https://t.me/+kdThjHWnV-JjZDY8" className="hover:text-white">Telegram</a>
           <a href="https://github.com/PAKmeme" className="hover:text-white">GitHub</a>
