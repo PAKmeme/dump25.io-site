@@ -25,11 +25,13 @@ export default function Home() {
             target="_blank"
           >
             Whitepaper
-          </a>
-          <a
-            href="#buy"
-            className="border border-red-600 hover:bg-red-600 hover:text-white text-red-600 px-6 py-3 rounded-xl text-lg"
-          >
+         <a
+  href="/whitepaper"
+  className="bg-red-600 hover:bg-red-700 ..."
+>
+  Whitepaper
+</a>
+
             Buy Now
           </a>
         </div>
