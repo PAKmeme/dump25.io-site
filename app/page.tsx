@@ -18,22 +18,36 @@ export default function Home() {
           THE REVENGE IS HERE
         </h1>
         <p className="text-xl text-gray-300 mb-8">Join the movement.</p>
-        <div className="flex gap-4 flex-wrap justify-center">
-          <a
-            href="/whitepaper.pdf"
-            className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-xl text-lg shadow-xl"
-            target="_blank"
-          >
-            Whitepaper
-         <a
-  href="/whitepaper"
-  className="bg-red-600 hover:bg-red-700 ..."
->
-            Buy Now
-          </a>
-        </div>
-      </section>
+        <section className="flex flex-col items-center justify-center text-center py-24 px-4">
+  <Image
+    src="/logo.png"
+    alt="DUMP25 Logo"
+    width={192}
+    height={192}
+    className="mb-8"
+  />
+  <h1 className="text-5xl md:text-6xl font-bold mb-4">
+    THE REVENGE IS HERE
+  </h1>
+  <p className="text-xl text-gray-300 mb-8">Join the movement.</p>
 
+  {/* ✅ Boutons séparés */}
+  <div className="flex gap-4 flex-wrap justify-center">
+    <a
+      href="/whitepaper"
+      className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-xl text-lg shadow-xl"
+    >
+      Whitepaper
+    </a>
+    <a
+      href="#buy"
+      className="border border-red-600 hover:bg-red-600 hover:text-white text-red-600 px-6 py-3 rounded-xl text-lg"
+    >
+      Buy Now
+    </a>
+  </div>
+</section>
+        
       {/* History / Revolution Section */}
       <section id="intro" className="bg-black text-white py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
