@@ -18,9 +18,12 @@ export default function Whitepaper() {
         <section>
           <h2 className="text-3xl font-bold mb-4">2. About the Founder</h2>
           <p className="text-zinc-300 text-lg">
-            <strong>Pak</strong>, a retail trader and builder, founded DUMP25 after experiencing the dark side of crypto firsthand — forced liquidations, rugpulls, and orchestrated dumps.
+            <strong>Pak</strong>, is an independent developer and retail trader who has spent years navigating the highs and lows of crypto.
+He’s seen the game from the ground level — the forced liquidations, the engineered volatility, the rugpulls masked as innovation.
             <br /><br />
-            Instead of quitting, he launched DUMP25 as a tool of retaliation — built by the liquidated, for the liquidated.
+            Disillusioned by a system designed to exploit the individual investor, Pak chose not to exit — but to respond.
+            DUMP25 is that response.
+            A symbolic stand against manipulation.
           </p>
         </section>
 
