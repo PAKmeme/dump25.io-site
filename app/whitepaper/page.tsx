@@ -3,6 +3,14 @@ export default function Whitepaper() {
     <main className="bg-black text-white py-20 px-6 font-sans">
       <div className="max-w-4xl mx-auto space-y-12">
         <h1 className="text-5xl font-bold text-center">DUMP25 Whitepaper</h1>
+        <a
+  href="/whitepaper.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-4 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-xl text-lg shadow-md"
+>
+  Download PDF
+</a>
 
         <section>
           <h2 className="text-3xl font-bold mb-4">1. Introduction</h2>
