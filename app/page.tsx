@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white font-sans">
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center py-24 px-4">
+      <section className="flex flex-col items-center justify-center text-center px-4 py-12 md:py-20">
   <Image
-    src="/logo.png"
-    alt="DUMP25 Logo"
-    width={192}
-    height={192}
-    className="mb-8"
+    src="/banner.png"
+    alt="DUMP25 Banner"
+    width={1500}
+    height={500}
+    className="rounded-xl shadow-lg w-full max-w-6xl h-auto object-cover"
   />
         <h1 className="text-5xl md:text-6xl font-bold mb-4">
           THE REVENGE IS HERE
