@@ -32,6 +32,7 @@ He’s seen the game from the ground level — the forced liquidations, the engi
             Disillusioned by a system designed to exploit the individual investor, Pak chose not to exit — but to respond.
             DUMP25 is that response.
             A symbolic stand against manipulation.
+            The token contract is named TheDump25 on BscScan, while the project is branded as “DUMP25” for clarity and consistency.
           </p>
         </section>
 
