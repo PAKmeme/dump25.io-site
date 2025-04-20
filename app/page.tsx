@@ -66,7 +66,7 @@ export default function Home() {
             With DUMP25, Pak isn’t just launching a token — he’s launching a war cry. A symbol of unity for those wrecked by the system.
             <br /><br />
             <strong>No VC allocations. No private sales. No manipulation. Just pure community.</strong>
-            <strong>The token contract is named TheDump25 on BscScan, while the project is branded as “DUMP25” for clarity and consistency.<strong>
+            <strong>The token contract is named TheDump25 on BscScan, while the project is branded as “DUMP25” for clarity and consistency.</strong>
           </p>
         </div>
       </section>
