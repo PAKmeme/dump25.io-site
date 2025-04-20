@@ -108,7 +108,7 @@ export default function Home() {
         <p>© 2025 DUMP25</p>
 
   <p>
-    Powered by <strong>TheDump25</strong> smart contract ·{" "}
+    Powered by <strong>TheDump25</strong> smart contract .
     <a
       href="https://bscscan.com/address/0xe70894aa930BB5E43505867b05C28523CE66D347"
       target="_blank"
