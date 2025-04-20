@@ -85,7 +85,7 @@ He’s seen the game from the ground level — the forced liquidations, the engi
           <p className="text-zinc-300 text-lg">
             Email: <a href="mailto:contact@dump25.io" className="underline">contact@dump25.io</a>
             <br />
-            X: <a href="https://x.com/Thedump25" className="underline" target="_blank">@Thedump25</a>
+            X: <a href="https://x.com/Dump25_io" className="underline" target="_blank">@Thedump25</a>
             <br />
             Telegram: <a href="https://t.me/+kdThjHWnV-JjZDY8" className="underline" target="_blank">t.me/+kdThjHWnV-JjZDY8</a>
             <br />
