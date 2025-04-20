@@ -107,17 +107,5 @@ export default function Home() {
         <p>© 2025 DUMP25. Built by the liquidated. For the liquidated.</p>
       </footer>
     </main>
-    <footer className="text-center text-sm text-gray-400 py-4 border-t border-gray-700">
-        Powered by <strong>TheDump25</strong> smart contract ·{" "}
-        <Link
-          href="https://bscscan.com/address/0xe70894aa930BB5E43505867b05C28523CE66D347"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline hover:text-gray-300 transition"
-        >
-          View on BscScan
-        </Link>
-      </footer>
-    </div>
   );
 }
