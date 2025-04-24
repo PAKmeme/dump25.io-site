@@ -121,39 +121,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-black text-white py-12 px-4 md:px-16">
-  <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Join the Community</h2>
-  <div className="flex flex-col md:flex-row justify-center items-center gap-6 text-lg text-center">
-    <a
-      href="https://t.me/+kdThjHWnV-JjZDY8"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-400 hover:text-white underline transition"
-    >
-      Telegram
-    </a>
-    <a
-      href="https://x.com/TheDump25"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-400 hover:text-white underline transition"
-    >
-      X (Twitter)
-    </a>
-    <a
-      href="https://github.com/PAKmeme"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-400 hover:text-white underline transition"
-    >
-      GitHub
-    </a>
-  </div>
-</section>
-
       {/* Footer */}
       <footer id="footer" className="py-12 bg-zinc-900 text-center text-gray-400 text-sm space-y-4">
-       <div className="flex flex-wrap justify-center gap-4 text-lg">
+       <h2 className="text-lg font-semibold text-white">Join the Community</h2>
+        
+        <div className="flex flex-wrap justify-center gap-4 text-lg">
           <a href="https://x.com/Dump25_io" className="hover:text-white">X (Twitter)</a>
           <a href="https://t.me/+kdThjHWnV-JjZDY8" className="hover:text-white">Telegram</a>
           <a href="https://github.com/PAKmeme" className="hover:text-white">GitHub</a>
