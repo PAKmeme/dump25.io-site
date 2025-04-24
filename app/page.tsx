@@ -53,7 +53,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="bg-zinc-900 text-white py-24 px-6">
+      <section id="about" className="bg-black text-white py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl font-bold mb-8">About the Founder — Pak</h2>
           <p className="text-xl text-zinc-300 leading-relaxed">
@@ -72,8 +72,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-zinc-900 text-white py-12 px-4 md:px-16">
-  <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Token Information</h2>
+      <section className="bg-black text-white py-12 px-4 md:px-16">
+  <h2 className="text-2xl md:text-5xl font-bold text-center mb-8">Token Information</h2>
   <div className="max-w-3xl mx-auto space-y-4 text-gray-300 text-sm md:text-base">
     <p><strong>Token Name:</strong> DUMP25</p>
     <p><strong>Token Symbol:</strong> $DUMP</p>
@@ -98,16 +98,16 @@ export default function Home() {
 </section>
 
       {/* Tokenomics */}
-      <section id="tokenomics" className="py-20 px-6 bg-zinc-800">
-        <h2 className="text-4xl font-bold mb-6 text-center">Tokenomics</h2>
+      <section id="tokenomics" className="py-20 px-6 bg-black">
+        <h2 className="text-5xl font-bold mb-6 text-center">Tokenomics</h2>
         <div className="flex justify-center py-8">
           <img src="/tokenomics.png" alt="Tokenomics Chart" className="w-full max-w-7xl object-cover" />
         </div>
       </section>
 
       {/* Vesting */}
-      <section id="vesting" className="py-20 px-6 bg-zinc-900 text-white">
-        <h2 className="text-4xl font-bold mb-10 text-center">Vesting Schedule</h2>
+      <section id="vesting" className="py-20 px-6 bg-black text-white">
+        <h2 className="text-5xl font-bold mb-10 text-center">Vesting Schedule</h2>
         <p className="max-w-3xl mx-auto text-center text-lg text-zinc-300 mb-12">
           DUMP will be released gradually to ensure healthy supply and long-term sustainability. 
           Starting in May: 25M tokens per month for 12 months, then the final 95.7M over the last 2 months.
@@ -122,7 +122,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer id="footer" className="py-12 bg-black text-center text-gray-400 text-sm space-y-4">
+      <footer id="footer" className="py-12 bg-zinc-900 text-center text-gray-400 text-sm space-y-4">
        <div className="flex flex-wrap justify-center gap-4 text-lg">
           <a href="https://x.com/Dump25_io" className="hover:text-white">X (Twitter)</a>
           <a href="https://t.me/+kdThjHWnV-JjZDY8" className="hover:text-white">Telegram</a>
