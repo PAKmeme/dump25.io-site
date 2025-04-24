@@ -36,7 +36,8 @@ He’s seen the game from the ground level — the forced liquidations, the engi
             The token contract is named TheDump25 on BscScan, while the project is branded as “DUMP25” for clarity and consistency.
           </p>
         </section>
-        <section className="bg-black text-white py-12 px-4 md:px-16">
+        
+  <section className="bg-black text-white py-12 px-4 md:px-16">
   <h2 className="text-3xl font-bold mb-4">3. Token Information / Tokenomics</h2>
   <div className="max-w-3xl mx-auto space-y-4 text-gray-300 text-sm md:text-base">
     <p><strong>Token Name:</strong> DUMP25</p>
