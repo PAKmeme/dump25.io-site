@@ -77,7 +77,7 @@ export default function Home() {
   <div className="max-w-3xl mx-auto space-y-4 text-gray-300 text-sm md:text-base">
     <p><strong>Token Name:</strong> DUMP25</p>
     <p><strong>Token Symbol:</strong> $DUMP</p>
-    <p><strong>Total Supply:</strong> 1,000,000,000,000</p>
+    <p><strong>Total Supply:</strong> 1,000,000,000</p>
     <p><strong>Smart Contract Name:</strong> TheDump25</p>
     <p>
       <strong>Smart Contract Address:</strong>{" "}
@@ -88,10 +88,10 @@ export default function Home() {
     <p><strong>Distribution:</strong></p>
     <ul className="list-disc list-inside ml-4">
       <li>50% – Market Liquidity</li>
-      <li>5% – Airdrop (25B)</li>
-      <li>15% – Team (75B)</li>
-      <li>20% – Reserve (100B)</li>
-      <li>10% – Marketing (50B)</li>
+      <li>5% – Airdrop (25M)</li>
+      <li>15% – Team (75M)</li>
+      <li>20% – Reserve (100M)</li>
+      <li>10% – Marketing (50M)</li>
     </ul>
     <p><strong>Vesting:</strong> 8.6B in circulation at launch, 25B released monthly for 12 months, remaining 95.7B unlocked in the final 2 months.</p>
   </div>
