@@ -93,7 +93,7 @@ export default function Home() {
       <li>20% – Reserve (100M)</li>
       <li>10% – Marketing (50M)</li>
     </ul>
-    <p><strong>Vesting:</strong> 8.6B in circulation at launch, 25B released monthly for 12 months, remaining 95.7B unlocked in the final 2 months.</p>
+    <p><strong>Vesting:</strong> 8.6M in circulation at launch, 25M released monthly for 12 months, remaining 95.7M unlocked in the final 2 months.</p>
   </div>
 </section>
 
