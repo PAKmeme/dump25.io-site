@@ -37,36 +37,38 @@ He’s seen the game from the ground level — the forced liquidations, the engi
           </p>
         </section>
         
-       <section className="bg-black text-white py-12 px-4 md:px-16">
-  <h2 className="text-3xl font-bold mb-4">3. Token Information</h2>
-  <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-[200px_1fr] gap-y-3 gap-x-6 text-gray-300 text-sm md:text-base">
-    <span className="font-semibold">Token Name:</span><span>DUMP25</span>
-    <span className="font-semibold">Token Symbol:</span><span>$DUMP</span>
-    <span className="font-semibold">Total Supply:</span><span>1,000,000,000</span>
-    <span className="font-semibold">Smart Contract Name:</span><span>TheDump25</span>
-    <span className="font-semibold">Smart Contract Address:</span>
-    <a
-      href="https://bscscan.com/address/0xe70894aa930BB5E43505867b05C28523CE66D347"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="underline hover:text-white break-all"
-    >
-      0xe70894aa930BB5E43505867b05C28523CE66D347
-    </a>
-    <span className="font-semibold col-span-2 mt-4">Distribution:</span>
-    <ul className="list-disc list-inside ml-4 col-span-2">
+       <section>
+  <h2 className="text-3xl font-bold mb-4">3. Token Information / Tokenomics</h2>
+  <div className="text-zinc-300 text-lg space-y-4">
+    <p><strong>Token Name:</strong> DUMP25</p>
+    <p><strong>Token Symbol:</strong> $DUMP</p>
+    <p><strong>Total Supply:</strong> 1,000,000,000</p>
+    <p><strong>Smart Contract Name:</strong> TheDump25</p>
+    <p>
+      <strong>Smart Contract Address:</strong>{" "}
+      <a
+        href="https://bscscan.com/address/0xe70894aa930BB5E43505867b05C28523CE66D347"
+        className="underline hover:text-white break-words"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        0xe70894aa930BB5E43505867b05C28523CE66D347
+      </a>
+    </p>
+    <p><strong>Distribution:</strong></p>
+    <ul className="list-disc list-inside ml-4">
       <li>50% – Market Liquidity</li>
       <li>5% – Airdrop (25M)</li>
       <li>15% – Team (75M)</li>
       <li>20% – Reserve (100M)</li>
       <li>10% – Marketing (50M)</li>
     </ul>
-    <span className="font-semibold col-span-2 mt-4">Vesting:</span>
-    <p className="col-span-2">
-      8.6M in circulation at launch, 25M released monthly for 12 months, remaining 95.7M unlocked in the final 2 months.
+    <p>
+      <strong>Vesting:</strong> 8.6M in circulation at launch, 25M released monthly for 12 months, remaining 95.7M unlocked in the final 2 months.
     </p>
   </div>
 </section>
+
 
         <section>
           <ul className="text-zinc-300 text-lg space-y-2 list-disc list-inside">
