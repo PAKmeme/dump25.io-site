@@ -73,7 +73,7 @@ export default function Home() {
       </section>
 
       <section className="bg-black text-white py-12 px-4 md:px-16">
-  <h2 className="text-2xl md:text-5xl font-bold text-center mb-8">Token Information</h2>
+  <h2 className="text-2xl md:text-5xl font-bold text-center mb-8">Token Information / Tokenomics</h2>
   <div className="max-w-3xl mx-auto space-y-4 text-gray-300 text-sm md:text-base">
     <p><strong>Token Name:</strong> DUMP25</p>
     <p><strong>Token Symbol:</strong> $DUMP</p>
@@ -99,7 +99,6 @@ export default function Home() {
 
       {/* Tokenomics */}
       <section id="tokenomics" className="py-20 px-6 bg-black">
-        <h2 className="text-5xl font-bold mb-6 text-center">Tokenomics</h2>
         <div className="flex justify-center py-8">
           <img src="/tokenomics.png" alt="Tokenomics Chart" className="w-full max-w-7xl object-cover" />
         </div>
