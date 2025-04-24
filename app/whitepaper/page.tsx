@@ -39,7 +39,7 @@ He’s seen the game from the ground level — the forced liquidations, the engi
         
        <section>
   <h2 className="text-3xl font-bold mb-4">3. Token Information / Tokenomics</h2>
-  <div className="text-zinc-300 text-lg space-y-4">
+  <div className="text-zinc-300 text-lg space-y-2">
     <p><strong>Token Name:</strong> DUMP25</p>
     <p><strong>Token Symbol:</strong> $DUMP</p>
     <p><strong>Total Supply:</strong> 1,000,000,000</p>
