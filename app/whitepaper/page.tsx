@@ -36,33 +36,36 @@ He’s seen the game from the ground level — the forced liquidations, the engi
             The token contract is named TheDump25 on BscScan, while the project is branded as “DUMP25” for clarity and consistency.
           </p>
         </section>
-        
-<section>    
-  <section className="bg-black text-white py-12 px-4 md:px-16">
-  <h2 className="text-3xl font-bold mb-4">3. Token Information / Tokenomics</h2>
-  <div className="max-w-3xl mx-auto space-y-4 text-gray-300 text-sm md:text-base">
+       <section style="background-color: #111; color: #eee; padding: 3rem 1.5rem; font-family: sans-serif;">
+  <h2 style="font-size: 1.8rem; font-weight: bold; text-align: center; margin-bottom: 2rem;">
+    Token Information
+  </h2>
+  <div style="max-width: 720px; margin: 0 auto; font-size: 0.95rem; line-height: 1.6;">
     <p><strong>Token Name:</strong> DUMP25</p>
     <p><strong>Token Symbol:</strong> $DUMP</p>
     <p><strong>Total Supply:</strong> 1,000,000,000</p>
     <p><strong>Smart Contract Name:</strong> TheDump25</p>
     <p>
-      <strong>Smart Contract Address:</strong>{" "}
-      <a href="https://bscscan.com/address/0xe70894aa930BB5E43505867b05C28523CE66D347" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">
-        0xe70894aa930BB5E43505867b05C28523CE66D347
+      <strong>Smart Contract Address:</strong>
+      <a href="https://bscscan.com/address/0xe70894aa930BB5E43505867b05C28523CE66D347"
+         target="_blank"
+         rel="noopener noreferrer"
+         style="color: #66ccff; text-decoration: underline;">
+         0xe70894aa930BB5E43505867b05C28523CE66D347
       </a>
     </p>
     <p><strong>Distribution:</strong></p>
-    <ul className="list-disc list-inside ml-4">
+    <ul style="padding-left: 1.2rem; margin-top: 0.5rem;">
       <li>50% – Market Liquidity</li>
       <li>5% – Airdrop (25M)</li>
       <li>15% – Team (75M)</li>
       <li>20% – Reserve (100M)</li>
       <li>10% – Marketing (50M)</li>
     </ul>
-    <p><strong>Vesting:</strong> 8.6M in circulation at launch, 25M released monthly for 12 months, remaining 95.7M unlocked in the final 2 months.</p>
+    <p><strong>Vesting Schedule:</strong> 8.6M in circulation at launch, 25M released monthly for 12 months, remaining 95.7M unlocked in the final 2 months.</p>
   </div>
 </section>
-
+     
         <section>
           <ul className="text-zinc-300 text-lg space-y-2 list-disc list-inside">
           </ul>
