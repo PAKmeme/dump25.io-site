@@ -73,8 +73,8 @@ export default function Home() {
       </section>
 
       <section className="bg-black text-white py-12 px-4 md:px-16">
-  <h2 className="text-2xl md:text-5xl font-bold text-center mb-8">Token Information / Tokenomics</h2>
-    <div className="max-w-3xl mx-auto space-y-4 text-gray-300 text-sm md:text-base">
+  <h2 className="text-5xl font-bold text-center mb-8">Token Information / Tokenomics</h2>
+    <div className="max-w-3xl mx-auto space-y-2 text-gray-300 text-sm md:text-base">
     <p><strong>Token Name:</strong> DUMP25</p>
     <p><strong>Token Symbol:</strong> $DUMP</p>
     <p><strong>Total Supply:</strong> 1,000,000,000</p>
